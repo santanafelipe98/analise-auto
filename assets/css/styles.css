@@ -52,6 +52,14 @@ img.d-block.w-100 {width: 100%;}
     padding-left: 10px;
 }
 
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
 /*Medias queries */
 
 .col-xs-15 {
@@ -190,7 +198,7 @@ img.d-block.w-100 {width: 100%;}
 }
 
 .Header .brand img {
-    width: 110px; position: relative; top: 5px
+    width: 140px; position: relative; top: 5px
 }
 
 
