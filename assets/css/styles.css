@@ -157,7 +157,7 @@ img.d-block.w-100 {width: 100%;}
 }
 
 .Header {
-    height: 70px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3097,6 +3097,84 @@ footer .footerBrand {
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
 }
+
+.splide {
+    padding: 0;
+}
+
+.solution-slide {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-slide h1,
+.solution-slide p {
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+}
+
+.slide-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.slide-text {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#slide_inicial {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner/banner01.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_consulta_veicular {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/consulta_veicular_fh.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_analise_de_credito {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner/banner02.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_recuperacao_de_recebiveis {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner/banner03.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_protesto_de_titulos {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/protesto_de_titulos.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_solucoes_de_pagamento {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner/banner05.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
 
 /* Link de Pagamento */
 
