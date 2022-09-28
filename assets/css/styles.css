@@ -1025,7 +1025,8 @@ footer .footerBrand {
     width: 100%;
     font-size: 1.2rem;
 	background: #fff;
-	color: var(--primary-color)
+	color: var(--primary-color);
+    text-align: center;
 }
 
 .PriceCard .Button:hover {
@@ -1655,6 +1656,14 @@ footer .footerBrand {
     background-size: 100%;
 }
 
+#banner_consultas1 .QueryCard {
+    margin-bottom: 20px;
+}
+
+#banner_consultas1 .QueryCard .queryCardTitle {
+    font-size: 20px;
+}
+
 .mt30{margin-top: 30px}
 
 .ServiceInfo {
@@ -2063,7 +2072,7 @@ footer .footerBrand {
 /* Protesto de Títulos */
 
 #protesto_de_titulos .serviceDetailsHeader {
-    background-image: url("../images/protesto_de_titulos.jpg");
+    background-image: url("../images/protesto_de_titulos.png");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -3333,6 +3342,16 @@ footer .footerBrand {
     .SolutionSection2 {
         padding-top: 50px;
     }
+
+    .PriceCard {
+        min-height: 1500px;
+    }
+
+    #personalizado.PriceCard {
+        min-height: auto;
+    }
+
+    
 }
 
 @media screen and (max-width: 1181.8px) {
