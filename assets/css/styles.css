@@ -1795,6 +1795,7 @@ footer .footerBrand {
     position: absolute;
     bottom: 40px;
     margin: 0;
+    left: calc(50% - 80px);
 }
 
 .QueryListModal {
@@ -3329,6 +3330,9 @@ footer .footerBrand {
         min-height: 250px;
     }
 
+    .Card {
+        min-height: 520px;
+    }
 
     .queryCardTitle {
         margin-top: 20px;
@@ -3606,6 +3610,8 @@ footer .footerBrand {
 
     .ServiceInfo {
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .ServiceInfo .serviceInfoTitle {
